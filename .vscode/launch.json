@@ -1,0 +1,27 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Frontend",
+            "request": "launch",
+            "type": "dart",
+            "program": "frontend/lib/main.dart",
+        },
+        {
+            "name": "Frontend (with Backend)",
+            "request": "launch",
+            "type": "dart",
+            "program": "frontend/lib/main.dart",
+            "preLaunchTask": "Run Backend Server",
+        },
+        {
+            "name": "Backend",
+            "request": "launch",
+            "type": "dart",
+            "program": "backend/bin/backend.dart",
+        },
+    ]
+}
